@@ -1,0 +1,103 @@
+<!DOCTYPE html>
+<html >
+<head>
+    <title>Mi primera web</title>
+    <style>
+        table, th, td {
+            border:1px solid black;
+
+        }
+    </style>
+</head>
+<body>
+    <table style="width:  300px;">
+        <thead>
+            <tr>
+                <th>Producto</th>
+                <th>Precio</th>
+            </tr>
+        </thead>
+
+        <tbody>
+        <tr>
+            <td>Hola beats</td>
+            <td>30,00</td>
+        </tr>
+        <tr>
+            <td>Hola boots</td>
+            <td>29,90</td>
+        </tr>
+        <tr>
+            <td>Hola mi amor como estas</td>
+            <td>Te amo</td>
+        </tr>
+        </tbody>
+        <tfoot>
+            <td></td>
+            <td>Total: $59,90</td>
+        </tfoot>
+    </table>
+
+    <!-- ul es lista no ordenada-->
+<ul>
+    <li>Elemento 1</li>
+    <li>Elemento 2</li>
+    <li>Elemento 3</li>
+    <li>Elemento 4</li>
+</ul>
+
+<!-- ol es lista ordenada-->
+<ol>
+    <li value= "50">Elemento 1</li>
+    <li>Elemento 2</li>
+    <li>Elemento 3</li>
+    <li>Elemento 4</li>
+    <li>
+        <ol>
+            <li style="list-style: lower-roman;">SubElemento 1</li>
+            <li style="list-style: lower-roman;">SUbElemento 2</li>
+            <li style="list-style: lower-roman;">SubElemento 3</li>
+            <li style="list-style: lower-roman;">SubElemento 4</li>     
+        </ol>
+    </li>
+</ol>
+
+    <form action="/formulario" method="POST"> 
+        <label for="nombre">Nombre</label>
+        <input value="Rodrigo"type="text" id="nombre" name="nombre" placeholder="Nombre" />
+        <br>
+        <label for="apellido">Apellido</label>
+        <input value="Morales" type="text" id="apellido" name="apellido" placeholder="Apellido" />
+        <br>
+        <label for="comentario">Comentario</label>
+        <textarea cols= "50 " rows="10" id="comentario" placeholder="Ingrese comentario" name="comentario">valor por defecto</textarea>
+        <br>
+        <button type="button"> Tipo boton</button>
+        <button type="reset">Tipo reset</button>
+        <button type="submit">Tipo submit</sub></button>
+
+    </form>
+    <h1>Mi primer heading </h1>        
+    <h2>Mi segundo heading </h2>        
+    <h3>Mi tercer heading </h3>        
+    <h4>Mi cuarto heading </h4>        
+    <h5>Mi quinto heading </h5>        
+    <h6>Mi sexto heading </h6>        
+    <p>Rodrigo esta apendiendo programacion</p>
+    <p>Rodrigo esta apendiendo progra poco a poco</p>
+    <hr>
+    <h2>Aprendiendo programacion</h2>
+    <p>
+        Vamos, <sapn style="color: blueviolet">un poco mas</sapn>, paso a paso vamos sumando conocimeinto
+    </p>
+    <p>
+        Este texto <span style="color:crimson">es muy largo</span>  y es para mostrar <br><br> 
+    la etiqueta de span 
+    </p>
+    <!-- esto es un comentario y 
+    no aparece en el explorador-->
+    <a target ="_blank" href="https://www.google.com">Ir a google</a>
+    <img src="img/Feliz.jpeg"width="400"/> 
+    
+</body>
+</html>
